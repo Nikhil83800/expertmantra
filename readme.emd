@@ -1,0 +1,31 @@
+# Income Tax Calculator
+
+A full-stack income tax calculator application with React frontend and Node.js backend.
+
+## Features
+
+- Calculate tax under both new and old regimes
+- Compare tax liability between regimes
+- Deduction management (80C, 80D, HRA, etc.)
+- Tax saving suggestions
+- Visual charts for tax breakdown
+
+## Installation
+
+1. Clone the repository
+2. Run `npm run install-all` to install all dependencies
+3. Create a `.env` file in the server directory if needed
+
+## Running the Application
+
+- Development: `npm run dev` (runs both client and server with hot-reloading)
+- Production: 
+  - Build client: `npm run build --prefix client`
+  - Start server: `npm start`
+
+## Project Structure
+
+- `client/` - React frontend application
+- `server/` - Node.js backend API
+- `config/` - Tax configuration and constants
+- `routes/` - API route handlers

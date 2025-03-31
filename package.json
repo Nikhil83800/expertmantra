@@ -1,0 +1,16 @@
+{
+    "name": "tax-calculator",
+    "version": "1.0.0",
+    "description": "Full-stack Income Tax Calculator",
+    "scripts": {
+      "start": "node server/server.js",
+      "server": "nodemon server/server.js",
+      "client": "npm start --prefix client",
+      "dev": "concurrently \"npm run server\" \"npm run client\"",
+      "install-all": "npm install && npm install --prefix client && npm install --prefix server"
+    },
+    "devDependencies": {
+      "concurrently": "^8.2.1",
+      "nodemon": "^3.0.2"
+    }
+  }
